@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/*******************Header Section********************/
 .header {
   display: flex;
   padding: 0 10%;
@@ -17,13 +17,11 @@
   display: flex;
   justify-content: space-between;
   margin: 2% 0;
-  
 }
 
 .header-logo {
   font-size: 24px;
   font-weight: bolder;
-  
 }
 
 .nav-links {
@@ -33,14 +31,12 @@
   justify-content: space-evenly;
   list-style-type: none;
   gap: 1%;
-  
 }
 
 .nav-links > * {
   color: #E5E7EB;
   flex-shrink: 0;
   padding: 1%;
-  
 }
 
 
@@ -49,7 +45,6 @@
   padding: 3rem 0;
   gap: 2rem;
   margin: 2rem 0;
-  
 }
 
 .banner > * {
@@ -72,17 +67,15 @@
 .title-text {
   color: #E5E7EB;
   font-size: 18px;
+  flex-wrap: wrap;
 }
+
 .banner-image {
   background-color: dimgrey;
   color: #E5E7EB;
-
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.title-text {
-  flex-wrap: wrap;
 }
 
 .sign-up-button {
@@ -94,3 +87,25 @@
   border-radius: 9px;
   font-weight: bold;
 }
+/********************Card Section********************/
+.information-section > h2 {
+  text-align: center;
+  padding: 4%;
+}
+
+.card-deck {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+  padding-bottom: 10%;
+  margin: 0 15%;
+}
+
+.img-div {
+  border: solid 2px #3882f6;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 8%;
+  margin-bottom: 3%;
+}
+
