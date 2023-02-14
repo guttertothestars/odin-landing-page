@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none; /* no underline */
+  color: #E5E7EB
+}
 /*******************Header Section********************/
 .header {
   display: flex;
@@ -133,5 +138,33 @@
 .quote-text > figcaption {
   align-self: flex-end;
   font-weight: bolder;
-  border: solid 1px yellow;
+}
+
+/***************Call to Action********************/
+.action-container {
+  background-color: #3882f6;
+  color:#E5E7EB;
+  margin: 5% 15%;
+  padding: 3% 5%;
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+  max-width: 50%;
+}
+
+.action-text > p {
+  flex-wrap: wrap;
+}
+
+.action-container > .sign-up-button {
+  padding: 0 4%;
+  border: solid 1px #E5E7EB;
 }
