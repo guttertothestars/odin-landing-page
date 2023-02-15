@@ -168,3 +168,17 @@ a {
   padding: 0 4%;
   border: solid 1px #E5E7EB;
 }
+/***************Footer*****************/
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > p {
+  color: #E5E7EB;
+  padding: 4rem;
+}
+
